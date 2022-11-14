@@ -1,0 +1,37 @@
+body{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.one{
+
+}
+
+.two{
+    background-color: white;
+}
+
+.three{
+    background-color: #E5E7EB;
+}
+
+.four{
+    background-color: white;
+}
+
+.footer{
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 10px;
+}
