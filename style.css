@@ -40,11 +40,9 @@ body{
 .ppics{ 
     display: flex;
     flex-direction: column;
-    border: solid; 
+    border: 5px solid; 
     border-color:#3882f6;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 100;
+    border-radius: 10px;
 }
 
 #picbox{
@@ -64,19 +62,23 @@ body{
     padding: 100px;
 }
 
-.card{
-    display: flex;
-    background-color: #3882f6;
-    padding: 75px;
-    color: #f9faf8;
-    border-radius: 10px;
-    width: 75%;
-}
+
 
 .four{
     display: flex;
     background-color: white;
     padding: 100px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px;
+    color: #f9faf8;
+    border-radius: 20px;
+    width: 75%;
 }
 
 .footer{
