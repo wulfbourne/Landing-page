@@ -7,6 +7,8 @@ body{
     justify-content: space-between;
     color: white;
     font-size: 18px;
+    padding-right: 15%;
+    padding-left: 15%;
 
 }
 
@@ -16,23 +18,50 @@ body{
     color: #f9faf8;
     font-size: 18px;
     margin: 10px;
-    padding: 10px;
-}
-
-.one1{
-    width: 50%;
-}
-
-.one2{
-
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .two{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.text{
+
+}
+
+.ppics{ 
+    display: flex;
+    flex-direction: column;
+    border: solid; 
+    border-color:#3882f6;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#picbox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-bottom: 80px;
 }
 
 .three{
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding: 100px;
 }
 
 .four{
