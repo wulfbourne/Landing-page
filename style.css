@@ -64,12 +64,25 @@ body{
     padding: 100px;
 }
 
+.card{
+    display: flex;
+    background-color: #3882f6;
+    padding: 75px;
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 75%;
+}
+
 .four{
+    display: flex;
     background-color: white;
+    padding: 100px;
 }
 
 .footer{
     color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 ul{
